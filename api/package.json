@@ -1,0 +1,22 @@
+{
+  "name": "testtoolbox",
+  "version": "1.0.0",
+  "description": "Project created to apply to toolbox",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "NODE_ENV=test mocha"
+  },
+  "author": "Julian Salcedo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0",
+    "tap-spec": "^5.0.0"
+  }
+}
